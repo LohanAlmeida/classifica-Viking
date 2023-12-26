@@ -1,0 +1,138 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://wallpapercrafter.com/desktop/368538-TV-Show-Vikings-Phone-Wallpaper.jpg");
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center;
+  padding: 0 50px 0 50px;
+}
+
+nav{
+  margin-top: 2%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.hotbar {
+  font-family: Arial 10px;
+  border: 0;
+  color: #ffffff;
+  background: #6c000a;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 17px;
+  borde-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  
+}
+
+.page-title {
+  color: #6c000a;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #6c000a;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+button {
+  background-color: #6c000a;
+  color: whait;
+}
+
+.btnadicionar {
+  border: 1;
+  color:#6c000a;
+  background: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input {
+  width: 206px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+table {
+  border: 2px solid #6c000a;
+  border-collapse: collapse;
+  margin-bottom: 90px;
+}
+
+table button{
+    background-color: #6c000a;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    width: 90px;
+    height: 20px;
+}
+
+h1 {
+  color: #fef76e;
+}
+
+th,
+tr,
+td {
+  border: solid 1.0px #6c000a;
+  color: white;
+}
+
+td img {
+  height: 100px;
+}
+
+footer {
+  background-color: #9c2c86; /* Cor de fundo do footer */
+  color: #9c2c86;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  margin: 0 5px; /* Margem entre os links */
+  display: inline-block; /* Para garantir que as imagens fiquem na mesma linha */
+}
+
+footer img {
+  width: 70px; /* Largura das imagens */
+  height: 70px; /* Altura das imagens */
+  border-radius: 50%; /* Adiciona borda arredondada às imagens */
+}
+
+button:hover {
+  cursor: pointer;
+}
